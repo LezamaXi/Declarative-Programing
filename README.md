@@ -1,1 +1,2 @@
-# Haskell
+# Programación Declarativa
+
