@@ -8,7 +8,7 @@ La programación declarativa es un paradigma de programación, que da la descrip
  
 
 ### Calculo Lambda
- El cálculo lambda fue desarrollado por Alonso Church en la década del 30 con el objeto de dar una teoría general de las funciones.
+ El cálculo lambda fue desarrollado por Church en la década del 30 con el objeto de dar una teoría general de las funciones.
 
 El cálculo lambda es un equivalente a las máquinas Turing ya que es capaz de evaluar y expresar cualquier función computable. El cálculo lambda se dio para darle fundamento de lenguajes de programación.
 
