@@ -19,19 +19,20 @@ actEstados e x v y
 	| x == y = v
 	| otherwise = e x
 
+-- | Dado un termino, un mundo en un universo, regresa la interpretación del termino en el mundo dado
 iTerm :: Term -> Estado a -> IntF a -> a
 iTerm (V x) e i = e x
 iTerm (F c []) e i = i c []
 iTerm (F f ts) e i = i f (aux e i ts) where 
-											aux _ _ [] = []
-											aux e i (t:ts)= (iTerm t e i):(aux e i ts)
-
+				aux _ _ [] = []
+				aux e i (t:ts)= (iTerm t e i):(aux e i ts)
+-- | Dado una formula, un mundo en un universo, regresa la interpretación de la formula 
 iForm :: Eq a => [a] -> Mundo a -> Form -> Bool
 iForm _ _ TrueF = True
 iForm _ _ FalseF = False
 iForm u (e, iF, iR) (Pr nom ts) = iR nom (aux ts) where
-														aux [] = []
-														aux (x:xs) = iTerm x e iF:(aux xs)
+						aux [] = []
+						aux (x:xs) = iTerm x e iF:(aux xs)
 iForm u (e, iF, iR) (Neg f) = not (iForm u (e, iF, iR) f)
 iForm u (e, iF, iR) (Conj f1 f2) = (iForm u (e, iF, iR) f1) && (iForm u (e, iF, iR) f2)
 iForm u (e, iF, iR) (Disy f1 f2) = (iForm u (e, iF, iR) f1) || (iForm u (e, iF, iR) f2)
