@@ -1,6 +1,6 @@
 	       
-	      María Ximena Lezama Hernández
-	      Ángel Gladín García
+María Ximena Lezama Hernández
+Ángel Gladín García
 			
 
 ╔══════════════════════════════════╗ 
@@ -21,21 +21,6 @@ La práctica consiste de 3 Programas realizados en Haskell:
 		las interpretaciones de la función y/o relación.
 
 
-╔═══════════════╗ 
-║ Para ejecutar ║ 
-╚═══════════════╝
-
-Para ejecutar, hay que situarse en la carpeta src donde se encuentran 
-los archivos.hs
-
-			XimenaLezama
-                                                                                        				└── Pract2
-                                                                                                    					├── readme.txt
-                                                                                                    					└── src
-                                                                                                                						└── archivos.hs
-
-
-Y luego escribir en terminar “ghci” y luego “:l Elnombredelarchivo.hs”
 
 ╔══════════════╗ 
 ║ Conclusiones ║ 
