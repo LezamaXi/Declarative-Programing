@@ -1,6 +1,6 @@
 # Programación Declarativa
 
-Este repositorio esta creado para dar ejemplos de que es la programación declarativa programados en Haskell y también para explicar su uso, y el uso del Calculo Lambda.
+Este repositorio esta creado para dar ejemplos de que es la programación declarativa con programas en Haskell.
 
 ## ¿Qué es la programación Declarativa?
 
