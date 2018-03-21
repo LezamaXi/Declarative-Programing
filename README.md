@@ -4,7 +4,7 @@ Este repositorio esta creado para dar ejemplos de que es la programación declar
 
 ## ¿Qué es la programación Declarativa?
 
-La programación declarativa es un paradigma de programación de programación, que da la descripción de un problema en lugar de proveer una solucion para dicho problema, dejando la interpretación de los pasos específicos para llegar a dicha solución a un interprete o compilador.
+La programación declarativa es un paradigma de programación, que da la descripción de un problema en lugar de proveer una solucion para dicho problema, dejando la interpretación de los pasos específicos para llegar a dicha solución a un interprete o compilador.
  
 
 ### Calculo Lambda
