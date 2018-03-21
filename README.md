@@ -14,7 +14,7 @@ El cálculo lambda es un equivalente a las máquinas Turing ya que es capaz de e
 
 ![Mars Page](cubo.png)
 
-Haskell es un lenguaje de programación que se encuentra dentro de lambda 2, y usa Hindley–Milner type system. El calculo lambda que tiene Haskell tiene la siguiente sintaxis. 
+Haskell es un lenguaje de programación que se encuentra dentro de lambda 2, y usa Hindley–Milner type system. El calculo lambda en el cual esta implementado Haskell tiene la siguiente sintaxis. 
 
 ![Mars Page](sintax.png)
 
